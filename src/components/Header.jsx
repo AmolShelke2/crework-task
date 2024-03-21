@@ -10,7 +10,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="bg-transparent py-4">
+    <header className="bg-[#181616] lg:bg-transparent py-4">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* navbar section container */}
         <div className="flex justify-between items-center">
@@ -36,7 +36,7 @@ export const Header = () => {
           <ul
             className={`${
               menuOpen
-                ? "flex gap-6 py-2 absolute top-16 bg-black w-full left-0 z-10 my-2"
+                ? "flex gap-6 py-2 absolute top-16 bg-[#181616] w-full left-0 z-10 my-2"
                 : "hidden"
             } lg:flex flex-col items-center lg:flex-row lg:items-center lg:gap-8`}>
             <li className="font-normal leading-6 text-xl cursor-pointer text-[#BDBCBC] hover:text-white">

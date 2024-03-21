@@ -5,7 +5,7 @@ const FiltersAndPagination = () => {
   const [currentFilter, setCurrentFilter] = useState(filters[0]);
 
   return (
-    <div className="my-2 h-full py-2">
+    <div className="my-2 w-full h-full py-2">
       {/* render filters */}
       <div className="flex gap-3 flex-wrap items-center">
         {filters.map((filter) => (
