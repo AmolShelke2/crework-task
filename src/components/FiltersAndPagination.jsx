@@ -57,7 +57,7 @@ const FiltersAndPagination = () => {
       <div className="mt-4 flex flex-col gap-2 lg:h-[670px]">
         {getPaginatedQuestions().length === 0 ? (
           <p className="text-white text-center my-4">
-            No questions with this filter.
+            No questions with this category.
           </p>
         ) : (
           getPaginatedQuestions().map((question) => (
