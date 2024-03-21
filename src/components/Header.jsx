@@ -38,14 +38,14 @@ export const Header = () => {
               menuOpen
                 ? "flex gap-6 py-2 absolute top-16 bg-black w-full left-0 z-10 my-2"
                 : "hidden"
-            } lg:flex flex-col items-center lg:flex-row lg:items-center lg:gap-8 text-[#BDBCBC]`}>
-            <li className="font-normal leading-6 text-xl cursor-pointer">
+            } lg:flex flex-col items-center lg:flex-row lg:items-center lg:gap-8`}>
+            <li className="font-normal leading-6 text-xl cursor-pointer text-[#BDBCBC] hover:text-white">
               30 Days of PM
             </li>
-            <li className="font-normal leading-6 text-xl cursor-pointer">
+            <li className="font-normal leading-6 text-xl cursor-pointer text-[#BDBCBC] hover:text-white">
               Newsletter
             </li>
-            <li className="font-normal leading-6 text-xl cursor-pointer">
+            <li className="font-normal leading-6 text-xl cursor-pointer text-[#BDBCBC] hover:text-white">
               Builders Cohort
             </li>
           </ul>
